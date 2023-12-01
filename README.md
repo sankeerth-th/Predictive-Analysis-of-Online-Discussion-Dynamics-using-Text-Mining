@@ -1,55 +1,67 @@
 # Predictive-Analysis-of-Online-Discussion-Dynamics-using-Text-Mining
 Data Mining - Fall Term 2023 - University of Memphis - Project Code Deliverables
-# Reddit Sentiment Analysis Project
+# Sentiment Analysis on Reddit Comments Project
 
-This repository hosts the code and data for a sentiment analysis project on Reddit comments, led by Sai Sankeerth Thallapally. The goal of this project is to use machine learning techniques to classify Reddit comments as either positive or negative.
+## Overview
+This repository contains the code for a sentiment analysis project on Reddit comments, conducted by Sai Sankeerth Thallapally. The project aims to classify the sentiment of comments as either positive or negative using machine learning techniques. It includes three Python script files for different phases of the project and links to the required datasets.
 
 ## Files in the Repository
 
-- `EXPERIMENT-1.ipynb`: Jupyter notebook for the initial experimental phase.
-- `EXPERIMENT-2.ipynb`: Jupyter notebook for the second phase of experiments.
-- `Final_code.ipynb`: Jupyter notebook with the final model for sentiment analysis.
-- `database.sqlite`: SQLite database containing Reddit comments.
-- `GoogleNews-vectors-negative300.bin`: Pre-trained Word2Vec model from Google News.
+- `EXPERIMENT-1.ipynb`: Jupyter notebook for the first experiment.
+- `EXPERIMENT-2.ipynb`: Jupyter notebook for the second experimental setup.
+- `Final code.ipynb`: Jupyter notebook containing the final sentiment analysis model.
 
-## Getting Started
+## Data Files
+
+The large dataset and Word2Vec model files are not included in this repository, but can be downloaded from the following links:
+
+- **Reddit Comments Dataset (May 2015)**:
+  - Description: Contains Reddit comments from May 2015.
+  - Size: Approximately 21 GB.
+  - Download Link: [Reddit Comments May 2015 - Kaggle](https://www.kaggle.com/datasets/kaggle/reddit-comments-may-2015)
+
+- **GoogleNews-vectors-negative300.bin**:
+  - Description: Pre-trained Word2Vec model from Google News.
+  - Size: About 3 GB.
+  - Download Link: [GoogleNews Vectors Negative300 - Kaggle](https://www.kaggle.com/datasets/leadbest/googlenewsvectorsnegative300?rvi=1)
+
+After downloading, place the `database.sqlite` (extracted from the Reddit Comments Dataset) and `GoogleNews-vectors-negative300.bin` files in the project directory alongside the Jupyter notebooks.
+
+## How to Run the Code
 
 ### Prerequisites
-
 - Python 3.x
 - Jupyter Notebook
-- Libraries including pandas, nltk, textblob, gensim, keras, sklearn, imblearn, sqlite3
+- Libraries: pandas, nltk, textblob, gensim, keras, sklearn, imblearn, sqlite3
 
 ### Installation
+1. Install Python: Download from [Python's official website](https://www.python.org/downloads/).
 
-1. **Install Python:** Download from [Python's official website](https://www.python.org/downloads/).
-2. **Install Jupyter Notebook:**
-   - Run `pip install notebook` in your terminal.
-3. **Install Required Libraries:**
-   - Execute `pip install pandas nltk textblob gensim keras sklearn imblearn sqlite3`.
+2. Install Jupyter Notebook:
+```
+   pip install notebook
+``` 
+3. Install Libraries:
+```
+pip install pandas nltk textblob gensim keras sklearn imblearn sqlite3
+```
 
 ### Running the Notebooks
+1. Open **Terminal (macOS/Linux)** or **PowerShell (Windows)**.
+2. Navigate to the project directory with the `.ipynb` files.
+3. Launch Jupyter Notebook:
+```
+jupyter notebook
+```
+4. Open the desired notebook from the Jupyter browser interface.
+5. Run the notebook cells by pressing Shift + Enter, or use "Run All" in the toolbar.
 
-1. Open Terminal (macOS/Linux) or PowerShell (Windows).
-2. Navigate to the directory containing the `.ipynb` files.
-3. Start Jupyter Notebook by running `jupyter notebook`.
-4. In the Jupyter browser interface, open the desired notebook.
-5. Execute the notebook cells by pressing Shift + Enter, or use the "Run All" option in the toolbar.
-
-### Data and Model Files
-
-- Place `database.sqlite` in the same directory as the notebooks.
-- Ensure the `GoogleNews-vectors-negative300.bin` file is correctly referenced in the notebooks.
-
-### Troubleshooting
-
-- Confirm installation of all required libraries.
-- If issues arise, try restarting the Jupyter notebook kernel.
-- Verify the file paths for `database.sqlite` and `GoogleNews-vectors-negative300.bin`.
+## Troubleshooting
+- Verify all libraries are installed.
+- Restart the Jupyter notebook kernel if necessary.
+- Check the file paths to `database.sqlite` and `GoogleNews-vectors-negative300.bin`.
 
 ## Contact
+For any queries related to this project, please contact Sai Sankeerth Thallapally at sthllpll@memphis.edu.
 
-For inquiries regarding this project, please reach out to:
-- Sai Sankeerth Thallapally: sthllpll@memphis.edu
-- Rahul Penchala: rpnchala@memphis.edu
-
+    
