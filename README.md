@@ -8,7 +8,7 @@ This repository hosts the code and data for a sentiment analysis project on Redd
 
 - `EXPERIMENT-1.ipynb`: Jupyter notebook for the initial experimental phase.
 - `EXPERIMENT-2.ipynb`: Jupyter notebook for the second phase of experiments.
-- `Final code.ipynb`: Jupyter notebook with the final model for sentiment analysis.
+- `Final_code.ipynb`: Jupyter notebook with the final model for sentiment analysis.
 - `database.sqlite`: SQLite database containing Reddit comments.
 - `GoogleNews-vectors-negative300.bin`: Pre-trained Word2Vec model from Google News.
 
