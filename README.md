@@ -3,7 +3,7 @@ Data Mining - Fall Term 2023 - University of Memphis - Project Code Deliverables
 # Sentiment Analysis on Reddit Comments Project
 
 ## Overview
-This repository contains the code for a sentiment analysis project on Reddit comments, conducted by Sai Sankeerth Thallapally. The project aims to classify the sentiment of comments as either positive or negative using machine learning techniques. It includes three Python script files for different phases of the project and links to the required datasets.
+This repository contains the code for a sentiment analysis project on Reddit comments, conducted by Sai Sankeerth Thallapally (U00861167) & Rahul Penchala (U00869508). The project aims to classify the sentiment of comments as either positive or negative using machine learning techniques. It includes three Python script files for different phases of the project and links to the required datasets.
 
 ## Files in the Repository
 
@@ -39,7 +39,7 @@ After downloading, place the `database.sqlite` (extracted from the Reddit Commen
 
 2. Install Jupyter Notebook:
 ```
-   pip install notebook
+pip install notebook
 ``` 
 3. Install Libraries:
 ```
@@ -62,6 +62,8 @@ jupyter notebook
 - Check the file paths to `database.sqlite` and `GoogleNews-vectors-negative300.bin`.
 
 ## Contact
-For any queries related to this project, please contact Sai Sankeerth Thallapally at sthllpll@memphis.edu.
+For any queries related to this project, please contact 
+- Sai Sankeerth Thallapally at (sthllpll@memphis.edu)
+- Rahul Penchala at (rpnchala@memphis.edu)
 
     
