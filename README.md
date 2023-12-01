@@ -27,6 +27,14 @@ The large dataset and Word2Vec model files are not included in this repository, 
 
 After downloading, place the `database.sqlite` (extracted from the Reddit Comments Dataset) and `GoogleNews-vectors-negative300.bin` files in the project directory alongside the Jupyter notebooks.
 
+## Important Note on Running the Code
+
+- To ensure the smooth execution of the notebooks, it's recommended to download the entire project repository as a ZIP file. After downloading, unzip the file to extract its contents into a single directory. This approach helps maintain the file structure and relative paths, making it easier to run the code without encountering file path issues.
+
+- Once you've downloaded and extracted the files, follow the instructions under the "How to Run the Code" section. Make sure that all prerequisite software and libraries are installed, and that the data files (`database.sqlite` and `GoogleNews-vectors-negative300.bin`) are placed in the same directory as the Jupyter notebooks.
+
+- By following these steps, you'll be able to run the notebooks seamlessly and replicate the project's results.
+
 ## How to Run the Code
 
 ### Prerequisites
